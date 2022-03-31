@@ -44,7 +44,7 @@ def hora(update: Update, context: CallbackContext) -> None:
     
 
     
-updater = Updater('5225045177:AAGrd04Dv1DiOzfIVAldnYh7v4OVANlQYQ8')
+updater = Updater('YOUR TOKEN')
 
 updater.dispatcher.add_handler(CommandHandler('hola', hola))
 updater.dispatcher.add_handler(CommandHandler('cumple', cumple))
